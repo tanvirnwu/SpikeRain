@@ -14,7 +14,7 @@
 
 
 
-![Visitor Count](https://komarev.com/ghpvc/?username=tanvirnwu&repo=HazeSpace2M&style=for-the-badge&label=Project%20Views)
+![Visitor Count](https://komarev.com/ghpvc/?username=tanvirnwu&repo=SpikeRain&style=for-the-badge&label=Project%20Views)
 
 
 ## Cite this Paper
