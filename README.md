@@ -5,4 +5,8 @@
 <hr>
 
 
+## SpikeRain Architecture
+![](./assets/SpikeRain.jpg)
+
+
 ## Details will be uploaded soon...
