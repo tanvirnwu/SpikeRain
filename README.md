@@ -34,13 +34,6 @@ conda activate spikerain
 pip install -r requirements.txt
 ```
 
-### Pip
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
-
 ## Dataset Preparation
 The repository expects paired rainy/clean images stored in per-dataset folders. A recommended layout is:
 ```
