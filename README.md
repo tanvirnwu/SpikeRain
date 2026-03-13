@@ -110,7 +110,8 @@ python evaluation.py \
 The training script sets random seeds for Python, NumPy, and PyTorch. It also enables `torch.backends.cudnn.benchmark = True`, which favors performance over strict determinism.
 
 ## Citation
-If you use this code, please cite:
+If you find our work useful in your research, please consider citing our paper and star ✨✨ this repository. Thank you!
+
 ```bibtex
 @InProceedings{Islam_2026_WACV,
     author    = {Islam, Md Tanvir and Alam, Inzamamul and Bakshi, Sambit and Muhammad, Khan and Del Ser, Javier and Ahn, Sangtae},
@@ -122,5 +123,6 @@ If you use this code, please cite:
 }
 ```
 
-## License
-This project is released under the MIT License. See [LICENSE](LICENSE).
+## Acknowledgement 
+We would like to thank the authors of [ESDNet](https://github.com/MingTian99/ESDNet) for introducing SNN-based deraining.
+
