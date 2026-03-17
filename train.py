@@ -27,9 +27,9 @@ if __name__ == "__main__":
     start_epoch = 1
 
     parser = argparse.ArgumentParser(description='Image Deraining')
-    parser.add_argument('--train_dir', default="/home/tanvir/datasets/img_restoration/deraining/rain1400/train/", type=str,
+    parser.add_argument('--train_dir', default="/home/HDD/tanvir_HDD/datasets/ir/Rain200H/train/", type=str,
                         help='Directory of train images')
-    parser.add_argument('--val_dir', default="/home/tanvir/datasets/img_restoration/deraining/rain1400/test/", type=str,
+    parser.add_argument('--val_dir', default="/home/HDD/tanvir_HDD/datasets/ir/Rain200H/test/", type=str,
                         help='Directory of validation images')
     parser.add_argument('--model_save_dir', default='./checkpoints/', type=str, help='Path to save weights')
     parser.add_argument('--pretrain_weights', default='./checkpoints/model_best.pth', type=str,
@@ -37,10 +37,10 @@ if __name__ == "__main__":
     parser.add_argument('--version', default='M', type=str) 
     parser.add_argument('--T', default=4, type=int)               
     parser.add_argument('--mode', default='SpikeRain_M', type=str)
-    parser.add_argument('--session', default='rain200L_bs16_lr_1e_3', type=str, help='session')
+    parser.add_argument('--session', default='Rain200H_bs16_lr_1e_3', type=str, help='session')
     parser.add_argument('--patch_size_train', default=64, type=int, help='training patch size')
     parser.add_argument('--patch_size_test', default=64, type=int, help='val patch size')
-    parser.add_argument('--num_epochs', default=2000, type=int, help='num_epochs')
+    parser.add_argument('--num_epochs', default=3500, type=int, help='num_epochs')
     parser.add_argument('--batch_size', default=16, type=int, help='batch_size')
     parser.add_argument('--val_epochs', default=1, type=int, help='val_epochs')
     parser.add_argument('--lr', default=1e-3, type=int, help='LearningRate')
